@@ -1,0 +1,363 @@
+html{
+    scroll-behavior: smooth;
+}
+#link{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+video{
+    width: 300px;
+    height: auto;
+
+    border: 8px solid #2891a1;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow:0px 5px 20px black;
+    visibility:hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Tat{
+    width:257px;
+    height:260px;
+}
+img{
+    border:5px double rgb(112, 234, 255);
+    border-radius: 20%;
+    margin-top: 10px;
+}
+p{
+    font-family: Roboto;
+    font-size: 20px; 
+    text-align: left;
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    width: fit-content;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 30px;
+}
+li{
+    margin-right: 30px;
+    list-style:square ;
+}
+h1{
+    color: white;
+    background-color: #2891a1;
+    border-radius: 10px;
+    font-size: 100px;
+}
+h3{
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+    margin-left: 10px;
+    margin-top: 20px;
+
+    background-color: #2891a1;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+#h3head{
+    margin-top: 5px;
+}
+body{
+    background-color: #2891a1;
+    font-family: Roboto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* .margincenter{
+    margin:auto;
+}
+#border1{
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    width:fit-content;
+    border-left-color: hotpink;
+    border-right-color: lightblue;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-container > div{
+    border: 2px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.flex-container2 > div{
+    text-align: left;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* Responsive Web*/
+.grid-container{
+    display:grid;
+    grid-template-columns: 20% auto;
+    grid-gap: 10px;
+}
+.grid-container > div{
+    box-shadow:0px 0px 20px black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+#header{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    background-image: url(banner.jpg);
+    background-size:100%;
+    background-position: center 49%;
+}
+#pimg{
+    grid-column: 1 / span 1;
+    height: 100%;
+    top: 190px;
+    left: 130px;
+    position: relative;
+}
+#pinfo{
+    grid-column: 1 / span 1;
+    height: fit-content;
+    top: 220px;
+    left: 100px;
+    position: relative;
+    text-align: left;
+    background-color: rgb(184, 222, 255);
+    padding: 10px;
+}
+#content{
+    grid-column: 2/ span 1;
+
+    height: 680px;
+    top: -50px;
+    width: 1000px;
+    left: 100px;
+    padding: 10px;
+    
+    position: relative;
+    text-align: left;
+    background-color: rgb(184, 222, 255);
+}
+#portfolio{
+    grid-column: 1/ span 2;
+
+    background-color: rgb(184, 222, 255);
+
+    margin-left: 100px;
+    margin-right: 160px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    height: 1500px;
+    width: 1345px;
+}
+
+@media only screen and (max-width: 1175px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #pimg{
+        grid-column: 1 / span 1;
+        left: 390px;
+
+    }
+    #pinfo{
+        grid-column: 1 / span 1;
+        height: fit-content;
+        width: 800px;
+
+        margin-right: 50px;
+        top: 220px;
+        text-align: left;
+        background-color: rgb(184, 222, 255);
+        padding: 10px;
+    }
+    #content{
+        grid-column: 1/ span 1;
+    
+        height: 680px;
+        top: 250px;
+        width: 1000px;
+        left: 20px;
+        padding: 10px;
+        
+        position: relative;
+        text-align: left;
+        background-color: rgb(184, 222, 255);
+    }
+    #portfolio{
+        grid-column: 1/ span 1;
+        top: 300px;
+        left: -40px;
+        position: relative;
+        width: 1000px;
+        background-color: rgb(184, 222, 255);
+    
+        margin-left: 100px;
+        margin-right: 160px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+ 
+    }
+
+
+}
+
+header{
+    height: 100px;
+    background-color: #18191a;
+    width: 100%;
+    z-index: 1;
+    position:fixed;
+    box-shadow:0px 50px 70px black;
+
+}
+
+/*Project*/
+#projectborder{
+    background-color: rgb(184, 222, 255);
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    box-shadow: 0px 1px 20px ;
+}
+#projectborder > div{
+    width: 1600px;
+}
+#pj2port{
+    background-color: rgb(184, 222, 255);
+    width: fit-content;
+    height: 70px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Video*/
+
+.video-container{
+    justify-content: center;
+    overflow: hidden;
+}
+.video-desc{
+    text-align: center;
+    width: 1000px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 5px;
+    border: 3px solid #34b8cc;
+    background-color: #227a88;
+    color: white;
+    
+}
+@media only screen and (max-width: 1175px){
+    .video-container{
+        justify-content: center;
+        overflow: hidden;
+    }
+    .video-desc{
+        text-align: center;
+        width: 800px;
+        padding: 8px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        border-radius: 5px;
+        border: 3px solid #34b8cc;
+        background-color: #227a88;
+        color: white;
+        
+    }
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #0d6775; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #34b8cc; /* Add a dark-grey background on hover */
+  }
+
+  .slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  
+  @-webkit-keyframes slideUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }

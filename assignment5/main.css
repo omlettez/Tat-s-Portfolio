@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    margin-top: -3px;
+    padding: 0px;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+body{
+    background-color: #242526;
+    text-align: center;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+    border:1px solid #383a3b;
+}
+.textleft{
+    text-align: left;
+    background-color: #383a3b;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    
+    border-radius: 5px;
+    display:flex;
+    width: 1255px;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px #232525;
+
+    word-wrap: break-word;
+}
+#topic1{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+}
+#comment1{
+    margin-left: 15%;
+    margin-right: 10%;
+    width: auto;
+}
+#comment2{
+    margin-left: 20%;
+    margin-right: 10%;
+    width: auto;
+}
+.headtext{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+header{
+    height: 100px;
+    background-color: #18191a;
+    width: 100%;
+    z-index: 15;
+    position:fixed;
+    box-shadow:0px 1px 50px;
+}
+
+.inputarea{
+    width: 100%;
+    position: relative;
+    top:150px;
+    height: 1500px;
+}
+textarea{
+    width: 80%;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-indent: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #2f3233;
+    border-width: 5px;
+    background-color: #383a3b;
+    color: white;
+}
+.button-container{
+    display: block;
+    text-align: right;
+    margin: 20px;
+    margin-right: 10%;
+}
+button{
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16;
+    font-weight:bolder;
+}
+.button{
+    background-color: #2374e1;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    padding: 10px 25px;
+    transition-duration: 0.1s;
+}
+.button:hover{
+    background-color: #134c97;
+}
+.button:active {
+    background-color: #134c97;
+    transform: translateY(2px);
+  }
