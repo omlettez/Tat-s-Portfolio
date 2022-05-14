@@ -1,1 +1,2 @@
-https://github.com/omlettez/Web_Programming_FN_Proj
+Source code: https://github.com/omlettez/Web_Programming_FN_Proj
+Webpage: https://omlettez.github.io/Web_Programming_FN_Proj/
